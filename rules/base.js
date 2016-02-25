@@ -73,7 +73,7 @@ module.exports = {
     "block-scoped-var": 0,           // http://eslint.org/docs/rules/block-scoped-var
     "no-alert": 1,                   // http://eslint.org/docs/rules/no-alert
     "no-cond-assign": [1, "always"], // http://eslint.org/docs/rules/no-cond-assign
-    "no-console": 1,                 // http://eslint.org/docs/rules/no-console
+    "no-console": 0,                 // http://eslint.org/docs/rules/no-console
     "no-constant-condition": 1,      // http://eslint.org/docs/rules/no-constant-condition
     "no-debugger": 1,                // http://eslint.org/docs/rules/no-debugger
     "no-dupe-keys": 2,               // http://eslint.org/docs/rules/no-dupe-keys
