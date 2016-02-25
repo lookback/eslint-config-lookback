@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-lookback",
+  "version": "1.0.0",
+  "description": "ESLint rules for Lookback.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "javascript",
+    "es6"
+  ],
+  "author": "Johan Brook",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^2.2.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0"
+  }
+}

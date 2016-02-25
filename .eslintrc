@@ -1,0 +1,8 @@
+{
+  "extends": "lookback",
+  "rules": {
+    "comma-dangle": 0,
+    "quotes": [1, "double"],
+    "quote-props": 0
+  }
+}
