@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     meteor: true,
-    node: true
+    node: true,
+    es6: true
   },
 
   rules: {
