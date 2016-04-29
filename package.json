@@ -19,7 +19,7 @@
     "eslint": "^2.2.0"
   },
   "dependencies": {
-    "babel-eslint": "^5.0.0"
+    "babel-eslint": "^6.0.4"
   },
   "devDependencies": {
     "eslint": "^2.2.0"
