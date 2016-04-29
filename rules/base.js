@@ -10,7 +10,8 @@ module.exports = {
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
@@ -61,9 +62,9 @@ module.exports = {
  */
     "no-shadow": 2,                  // http://eslint.org/docs/rules/no-shadow
     "no-shadow-restricted-names": 2, // http://eslint.org/docs/rules/no-shadow-restricted-names
-    "no-unused-vars": [2, {          // http://eslint.org/docs/rules/no-unused-vars
+    "no-unused-vars": [1, {          // http://eslint.org/docs/rules/no-unused-vars
       "vars": "local",
-      "args": "after-used"
+      "args": "none"
     }],
     "no-use-before-define": [2, "nofunc"],    // http://eslint.org/docs/rules/no-use-before-define
 
@@ -183,7 +184,7 @@ module.exports = {
     "no-extra-parens": 2,            // http://eslint.org/docs/rules/no-extra-parens
     "no-underscore-dangle": 0,       // http://eslint.org/docs/rules/no-underscore-dangle
     "one-var": 0,                    // http://eslint.org/docs/rules/one-var
-    "padded-blocks": [2, "never"],   // http://eslint.org/docs/rules/padded-blocks
+    "padded-blocks": 0,              // http://eslint.org/docs/rules/padded-blocks
     "semi": [2, "always"],           // http://eslint.org/docs/rules/semi
     "semi-spacing": [2, {            // http://eslint.org/docs/rules/semi-spacing
       "before": false,
