@@ -189,7 +189,7 @@ module.exports = {
       "before": false,
       "after": true
     }],
-    "keyword-spacing": 2,           // http://eslint.org/docs/rules/space-after-keywords
+    "keyword-spacing": 2,           // http://eslint.org/docs/rules/keyword-spacing
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [ // http://eslint.org/docs/rules/space-before-function-paren
       2, "never"
