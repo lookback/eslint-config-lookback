@@ -16,12 +16,12 @@
   "author": "Johan Brook",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^2.2.0"
+    "eslint": "^3.0.0"
   },
   "dependencies": {
     "babel-eslint": "^6.0.4"
   },
   "devDependencies": {
-    "eslint": "^2.2.0"
+    "eslint": "^3.3.1"
   }
 }
