@@ -42,7 +42,7 @@ module.exports = {
   "rules": {
 
     "strict": 0,
-    "no-unused-expressions": 1,
+    "no-unused-expressions": ["error", {"allowShortCircuit": true, "allowTernary": true}],
     "new-cap": 0,
 
 /**
