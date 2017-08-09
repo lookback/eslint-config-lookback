@@ -128,7 +128,16 @@ module.exports = {
     "no-label-var": 2,               // http://eslint.org/docs/rules/no-label-var
     "no-lone-blocks": 2,             // http://eslint.org/docs/rules/no-lone-blocks
     "no-loop-func": 2,               // http://eslint.org/docs/rules/no-loop-func
-    "no-multi-spaces": 2,            // http://eslint.org/docs/rules/no-multi-spaces
+    "no-multi-spaces": ["error",
+          {
+            "ignoreEOLComments": true,
+            "exceptions": {
+              "ImportDeclaration": true,
+              "Property": true,
+              "VariableDeclarator": true
+            }
+          }
+        ],            // http://eslint.org/docs/rules/no-multi-spaces
     "no-multi-str": 2,               // http://eslint.org/docs/rules/no-multi-str
     "no-native-reassign": 2,         // http://eslint.org/docs/rules/no-native-reassign
     "no-new": 2,                     // http://eslint.org/docs/rules/no-new
@@ -174,9 +183,10 @@ module.exports = {
     "eol-last": 2,                   // http://eslint.org/docs/rules/eol-last
     "func-names": 0,                 // http://eslint.org/docs/rules/func-names
     "func-style": 0,                 // http://eslint.org/docs/rules/func-style
-    "key-spacing": [2, {             // http://eslint.org/docs/rules/key-spacing
+    "key-spacing": ["error", {       // http://eslint.org/docs/rules/key-spacing
       "beforeColon": false,
-      "afterColon": true
+      "afterColon": true,
+      "align": "value"
     }],
     "new-parens": 1,                 // http://eslint.org/docs/rules/new-parens
     "no-multiple-empty-lines": [2, { // http://eslint.org/docs/rules/no-multiple-empty-lines
