@@ -16,9 +16,9 @@
   "author": "Johan Brook",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^3.3.0"
+    "eslint": "^4"
   },
   "devDependencies": {
-    "eslint": "^3.3.1"
+    "eslint": "^4"
   }
 }
