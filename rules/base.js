@@ -26,8 +26,8 @@ module.exports = {
     "new-cap":               "off",
 
     /**
- * ES6 Specific
- */
+     * ES6 Specific
+     */
     "arrow-parens":           "off",               // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing":          "error",              // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super":      "error",          // http://eslint.org/docs/rules/constructor-super
@@ -37,7 +37,7 @@ module.exports = {
     "no-dupe-class-members":  "error",      // http://eslint.org/docs/rules/no-dupe-class-members
     "no-this-before-super":   "error",       // http://eslint.org/docs/rules/no-this-before-super
     "no-var":                 "error",                     // http://eslint.org/docs/rules/no-var
-    "object-shorthand":       "off",           // http://eslint.org/docs/rules/object-shorthand
+    "object-shorthand":       ["error", "methods"],           // http://eslint.org/docs/rules/object-shorthand
     "prefer-arrow-callback":  "warn",      // http://eslint.org/docs/rules/prefer-arrow-callback
     "prefer-const":           "error",               // http://eslint.org/docs/rules/prefer-const
     "prefer-spread":          "error",              // http://eslint.org/docs/rules/prefer-spread
@@ -45,8 +45,8 @@ module.exports = {
     "require-yield":          "error",              // http://eslint.org/docs/rules/require-yield
 
     /**
- * Variables
- */
+     * Variables
+     */
     "no-shadow":                  "error",                  // http://eslint.org/docs/rules/no-shadow
     "no-shadow-restricted-names": "error", // http://eslint.org/docs/rules/no-shadow-restricted-names
     "no-unused-vars":             ["warn", {          // http://eslint.org/docs/rules/no-unused-vars
@@ -56,8 +56,8 @@ module.exports = {
     "no-use-before-define": ["error", "nofunc"],    // http://eslint.org/docs/rules/no-use-before-define
 
     /**
- * Possible errors
- */
+     * Possible errors
+     */
     "block-scoped-var":        "off",           // http://eslint.org/docs/rules/block-scoped-var
     "no-alert":                "warn",                   // http://eslint.org/docs/rules/no-alert
     "no-cond-assign":          [1, "always"], // http://eslint.org/docs/rules/no-cond-assign
@@ -83,8 +83,8 @@ module.exports = {
     "use-isnan":               "error",                  // http://eslint.org/docs/rules/use-isnan
 
     /**
- * Best practices
- */
+     * Best practices
+     */
     "consistent-return": "error",                      // http://eslint.org/docs/rules/consistent-return
     "curly":             ["error", "multi-line"],      // http://eslint.org/docs/rules/curly
     "default-case":      [                       // http://eslint.org/docs/rules/default-case
@@ -147,8 +147,8 @@ module.exports = {
     "yoda":               "error",                       // http://eslint.org/docs/rules/yoda
 
     /**
- * Style
- */
+     * Style
+     */
     "indent":      ["error", 2, {"SwitchCase": 1} ], // http://eslint.org/docs/rules/indent
     "brace-style": ["warn",               // http://eslint.org/docs/rules/brace-style
       "1tbs", {
