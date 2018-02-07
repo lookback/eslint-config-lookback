@@ -183,7 +183,13 @@ module.exports = {
     "no-array-constructor": 2,       // http://eslint.org/docs/rules/no-array-constructor
     "no-spaced-func":       2,             // http://eslint.org/docs/rules/no-spaced-func
     "no-trailing-spaces":   2,         // http://eslint.org/docs/rules/no-trailing-spaces
-    "no-extra-parens":      2,            // http://eslint.org/docs/rules/no-extra-parens
+    "no-extra-parens":      [            // http://eslint.org/docs/rules/no-extra-parens
+      "error",
+      "all",
+      {
+        "nestedBinaryExpressions": false
+      }
+    ],
     "no-underscore-dangle": 0,       // http://eslint.org/docs/rules/no-underscore-dangle
     "one-var":              0,                    // http://eslint.org/docs/rules/one-var
     "padded-blocks":        0,              // http://eslint.org/docs/rules/padded-blocks
