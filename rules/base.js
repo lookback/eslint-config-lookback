@@ -189,9 +189,11 @@ module.exports = {
     }],
     "keyword-spacing":             2,           // http://eslint.org/docs/rules/keyword-spacing
     "space-before-blocks":         2,        // http://eslint.org/docs/rules/space-before-blocks
-    "space-before-function-paren": [ // http://eslint.org/docs/rules/space-before-function-paren
-      2, "never"
-    ],
+    "space-before-function-paren": ["error", { // http://eslint.org/docs/rules/space-before-function-paren
+      "anonymous":  "never",
+      "named":      "never",
+      "asyncArrow": "always"
+    }],
     "space-infix-ops": 2,            // http://eslint.org/docs/rules/space-infix-ops
     "space-unary-ops": 2,            // http://eslint.org/docs/rules/space-unary-ops
     "spaced-comment":  2,             // http://eslint.org/docs/rules/spaced-comment
