@@ -37,12 +37,14 @@ module.exports = {
     "no-dupe-class-members":  "error",      // http://eslint.org/docs/rules/no-dupe-class-members
     "no-this-before-super":   "error",       // http://eslint.org/docs/rules/no-this-before-super
     "no-var":                 "error",                     // http://eslint.org/docs/rules/no-var
-    "object-shorthand":       ["error", "methods"],           // http://eslint.org/docs/rules/object-shorthand
-    "prefer-arrow-callback":  "warn",      // http://eslint.org/docs/rules/prefer-arrow-callback
-    "prefer-const":           "error",               // http://eslint.org/docs/rules/prefer-const
-    "prefer-spread":          "error",              // http://eslint.org/docs/rules/prefer-spread
-    "prefer-template":        "error",            // http://eslint.org/docs/rules/prefer-template
-    "require-yield":          "error",              // http://eslint.org/docs/rules/require-yield
+    "object-shorthand":       ["error", "methods", {   // http://eslint.org/docs/rules/object-shorthand
+      avoidQuotes: true
+    }],
+    "prefer-arrow-callback": "warn",      // http://eslint.org/docs/rules/prefer-arrow-callback
+    "prefer-const":          "error",               // http://eslint.org/docs/rules/prefer-const
+    "prefer-spread":         "error",              // http://eslint.org/docs/rules/prefer-spread
+    "prefer-template":       "error",            // http://eslint.org/docs/rules/prefer-template
+    "require-yield":         "error",              // http://eslint.org/docs/rules/require-yield
 
     /**
      * Variables
