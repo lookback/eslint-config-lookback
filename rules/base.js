@@ -174,7 +174,7 @@ module.exports = {
     "key-spacing": ["error", {       // http://eslint.org/docs/rules/key-spacing
       "beforeColon": false,
       "afterColon":  true,
-      "align":       "value"
+      "mode": "minimum"
     }],
     "new-parens":              "warn",                 // http://eslint.org/docs/rules/new-parens
     "no-multiple-empty-lines": ["error", { // http://eslint.org/docs/rules/no-multiple-empty-lines
